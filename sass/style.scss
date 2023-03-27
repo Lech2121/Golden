@@ -2,3 +2,85 @@
     box-sizing: border-box;
     
 }
+
+.border {
+    border: 1px solid green;
+}
+
+.background {
+    background-image: url(../images/background-head.jpg);
+    max-height: 700px;
+
+}
+
+// Navigation
+
+.navigation {
+    border: 3px solid red;
+    padding: 25px 0;
+
+}
+
+.menu {
+    position: absolute;
+    display: inline-block;
+    border: 1px solid red;
+    // margin: 25px 0;
+    // padding: 25px 0;
+    left: 50%;
+    // width: 25%;
+
+}
+.name {
+    position: absolute;
+    border: 1px solid red;
+    display: inline-block;
+    // margin: 25px 0;
+    // padding: 25px 0;
+
+}
+nav ul {
+    
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+nav li {
+    display: inline-block;
+}
+
+// NCIE TO MEET YOU
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 160px 0;
+    
+}
+
+.welcome {
+    font-size: 32px;
+    margin: 10px 0 25px 0;
+    padding: 0;
+}
+
+
+.nice {
+    font-size: 48px;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 242px;
+    height: 65px;
+    background-color: yellow;
+    margin: 30px 0 0 0;
+}
