@@ -7,8 +7,16 @@
     border: 1px solid green;
 }
 
+.border-red {
+    border: 1px solid red;
+}
+
+.border-yellow {
+    border: 1px solid yellow;
+}
+
 .background {
-    background-image: url(../images/background-head.jpg);
+    background-image: url(../images/background-head.png);
     max-height: 700px;
 
 }
@@ -127,6 +135,84 @@ nav li {
 
 .text-center {
     text-align: center;
+}
+
+// OUR PORTFOLIO
+
+.our-portfolio {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.our-portfolio-head {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.our-portfolio-head h1 {
+    margin: 120px 0 5px 0;
+    padding: 0;
+}
+
+.our-portfolio p {
+    margin: 5px 0 80px 0;
+    padding: 0;
+}
+
+.portfolio-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 51px;
+}
+
+.card {
+    width: 290px;
+    height: 393px;
+}
+
+.image {
+    height: 77%;
+}
+
+.image img {
+
+}
+
+.description {
+    height: 23%;
+    text-align: center;
+}
+
+.description h2 {
+    margin-bottom: 5px;
+}
+
+// FOOTER
+
+.footer-wrapper {
+    position: relative;
+    margin: 40px 0;
+    height: 100%;
+}
+
+.icons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.icons i {
+    font-size: 40px;
+}
+
+.copywright {
+    margin: 0;
 }
 
 
