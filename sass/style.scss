@@ -17,36 +17,66 @@
 
 .background {
     background-image: url(../images/background-head.png);
-    max-height: 700px;
-
+    height: 700px;
+    background-position: center center;
+    background-size: cover;
+     
 }
+
+h1, h2, ul {
+    font-family: 'Bitter', serif;
+    font-family: 'Gloock', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: black;
+}
+
+p { font-family: 'Bitter', serif;
+    font-family: 'Gloock', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+    
 
 // Navigation
 
 .navigation {
-    border: 3px solid red;
-    padding: 25px 0;
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+
+}
+
+.name {
+    color: rgb(254,209,54);
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    font-family: 'Gloock', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.name {
+    position: absolute;
+    
+    display: inline-block;
+    // margin: 25px 0;
+    // padding: 25px 0;
 
 }
 
 .menu {
+    display: flex;
+    gap: 55px;
     position: absolute;
-    display: inline-block;
-    border: 1px solid red;
+    
     // margin: 25px 0;
     // padding: 25px 0;
     left: 50%;
     // width: 25%;
 
 }
-.name {
-    position: absolute;
-    border: 1px solid red;
-    display: inline-block;
-    // margin: 25px 0;
-    // padding: 25px 0;
 
-}
 nav ul {
     
     display: inline-block;
@@ -59,6 +89,10 @@ nav li {
     display: inline-block;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 // NCIE TO MEET YOU
 
 .introduction {
@@ -68,6 +102,13 @@ nav li {
     align-items: center;
     margin: 160px 0;
     
+}
+
+.introduction h1, a {
+    color: white;
+}
+.introduction h2 {
+    color: white;
 }
 
 .welcome {
@@ -89,8 +130,10 @@ nav li {
     align-items: center;
     width: 242px;
     height: 65px;
-    background-color: yellow;
+    background-color: rgb(254,209,54);
+    font-size: 20px;
     margin: 30px 0 0 0;
+    text-decoration: none;
 }
 
 // SERVICES
@@ -116,16 +159,12 @@ nav li {
     margin: 40px 0 120px 0;
 }
 
-// .service {
-//     width: 73px;
-//     height: 73px;
-// }
 
 .service i {
     padding: 24px;
     font-size: 30px;
-    color: yellow;
-    border: 2px solid yellow;
+    color: rgb(254,209,54);
+    border: 2px solid rgb(254,209,54);;
     border-radius: 50%;
 }
 
@@ -209,10 +248,9 @@ nav li {
 
 .icons i {
     font-size: 40px;
+    color: rgb(34, 34, 34)
 }
 
 .copywright {
     margin: 0;
 }
-
-
