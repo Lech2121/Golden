@@ -1,16 +1,18 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    
+}
+
 body {
     margin: 0;
+    
 }
 
 
 .container {
-    background-color: rgb(247,247,247);
+    
 }
 
-}
+
 
 .border {
     border: 1px solid green;
@@ -193,6 +195,11 @@ nav a {
     display: flex;
     flex-direction: column;
     margin: 0;
+    
+}
+
+.our-portfolio-background {
+    background-color: rgb(247,247,247);
 }
 
 .our-portfolio-head {
@@ -228,6 +235,7 @@ nav a {
 
 .image {
     height: 77%;
+    
 }
 
 .image img {
@@ -236,7 +244,9 @@ nav a {
 
 .description {
     height: 23%;
+    width: 291px;
     text-align: center;
+    background-color: rgb(255,255,255);
 }
 
 .description h2 {
@@ -268,6 +278,10 @@ nav a {
 .icons i {
     font-size: 40px;
     color: rgb(34, 34, 34)
+}
+
+.icons a {
+    font-size: 0;
 }
 
 .copywright {
