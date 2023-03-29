@@ -1,6 +1,14 @@
 *, *::before, *::after {
     box-sizing: border-box;
     
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(247,247,247);
+}
+
 }
 
 .border {
@@ -92,7 +100,7 @@ nav a {
     text-decoration: none;
 }
 
-// NCIE TO MEET YOU
+// NICE TO MEET YOU
 
 .introduction {
     display: flex;
@@ -204,13 +212,17 @@ nav a {
 
 .portfolio-row {
     display: flex;
-    justify-content: space-between;
+    
     margin-bottom: 51px;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     width: 290px;
     height: 393px;
+    align-items: center;
+    padding: 0;
 }
 
 .image {
@@ -228,6 +240,10 @@ nav a {
 
 .description h2 {
     margin-bottom: 5px;
+}
+
+.description h2, p {
+    text-align: center;
 }
 
 // FOOTER
